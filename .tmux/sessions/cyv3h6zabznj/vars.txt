@@ -7,7 +7,7 @@ declare -a BASH_ARGV=()
 declare -A BASH_CMDS=()
 declare -- BASH_COMMAND="git add ."
 declare -a BASH_COMPLETION_VERSINFO=([0]="2" [1]="8")
-declare -a BASH_LINENO=([0]="18")
+declare -a BASH_LINENO=([0]="4")
 declare -ar BASH_REMATCH=()
 declare -a BASH_SOURCE=([0]="/home/ubuntu/.bashrc")
 declare -- BASH_SUBSHELL
@@ -43,14 +43,14 @@ declare -x NODE_PATH="/home/ubuntu/.npm-packages/lib/node_modules:"
 declare -x NOKOGIRI_USE_SYSTEM_LIBRARIES="1"
 declare -x NPM_CONFIG_PREFIX="/home/ubuntu/.npm-packages"
 declare -- NPM_PACKAGES="/home/ubuntu/.npm-packages"
-declare -x OLDPWD
+declare -x OLDPWD="/home/ubuntu/divi"
 declare -- OPTERR="1"
 declare -i OPTIND="1"
 declare -- OSTYPE="linux-gnu"
 declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/go/bin:/home/ubuntu/.local/bin:/home/ubuntu/.npm-packages/bin"
 declare -a PIPESTATUS=([0]="0")
 declare -x PIP_USER="true"
-declare -ir PPID="2917"
+declare -ir PPID="8516"
 declare -- PROMPT_COMMAND="history -a;tmux_save_session"
 declare -- PS1="\\[\\e]0;\\w\\a\\]\${debian_chroot:+(\$debian_chroot)}\\[\\033[01;32m\\]\\[\\033[00m\\]\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\\$ "
 declare -- PS2="> "
@@ -63,9 +63,9 @@ declare -r SHELLOPTS="braceexpand:emacs:hashall:histexpand:history:interactive-c
 declare -x SHLVL="2"
 declare -x S_COLORS="auto"
 declare -x TERM="xterm-256color"
-declare -x TMUX="/tmp/tmux-1000/default,2917,0"
+declare -x TMUX="/tmp/tmux-1000/default,8516,0"
 declare -x TMUX_PANE="%0"
-declare -x TMUX_SESSION_NAME="1iezbnd6pwc1"
+declare -x TMUX_SESSION_NAME="cyv3h6zabznj"
 declare -- TRAP_DEBUG_COMMAND="[[ \${BASH_COMMAND} =~ ^history ]] || ( echo -ne \"\\033]0;\"; echo -n \"\${BASH_COMMAND} - \${PWD/\\/home\\/ubuntu/\\~}\"; echo -ne \"\\007\";tmux_save_session \"\${BASH_COMMAND}\")"
 declare -ir UID="1000"
 declare -x USER="ubuntu"
