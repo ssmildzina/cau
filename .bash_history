@@ -21,3 +21,8 @@ git config --global user.name "ssmildzina"
 git commit -m "first commit"
 git remote add origin https://github.com/ssmildzina/cau.git
 git push -u origin master
+git add .
+git commit -m 'Added 2. dalu'
+git remote add origin https://github.com/ssmildzina/cau.git
+git remote add origin https://github.com/ssmildzina/ata.git
+git push -u origin master
